@@ -1,0 +1,14 @@
+{
+  "name": "heart-disease-mlops",
+  "image": "mcr.microsoft.com/devcontainers/python:1-3.10-bullseye",
+  "features": {
+    "ghcr.io/devcontainers/features/docker-in-docker:2": {},
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {}
+  },
+  "postCreateCommand": "pip install -r docker/requirements.txt -r requirements-dev.txt",
+  "forwardPorts": [8000, 30080],
+  "hostRequirements": {
+    "cpus": 4,
+    "memory": "8gb"
+  }
+}
