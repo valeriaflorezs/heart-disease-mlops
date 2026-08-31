@@ -23,9 +23,15 @@ project:
   id: e6d07469-9663-43ad-ae1b-a892792945c5
   toc:
     - file: README.md
-    - children:
+    - title: Notebooks
+      children:
         - file: notebooks/1_model_leakage_demo.ipynb
         - file: notebooks/2_model_pipeline_cv.ipynb
-      title: Notebooks
+    - title: Despliegue y MLOps
+      children:
+        - file: docs/etapa-3-api-docker.md
+        - file: docs/etapa-4-kubernetes.md
+        - file: docs/etapa-5-ci.md
+        - file: docs/etapa-6-drift.md
 site:
   template: book-theme
