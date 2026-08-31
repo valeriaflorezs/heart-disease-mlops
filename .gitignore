@@ -6,3 +6,6 @@ venv/
 *.egg-info/
 .ipynb_checkpoints/
 .claude/
+
+# MyST build outputs
+_build

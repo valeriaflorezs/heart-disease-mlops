@@ -1,0 +1,31 @@
+version: 1
+project:
+  title: Heart Disease MLOps
+  description: >-
+    Proyecto Integrador de Aprendizaje Automático — predicción de falla cardíaca
+    con un pipeline MLOps completo (data leakage, modelado, FastAPI, Docker,
+    Kubernetes, CI y monitoreo de deriva de datos).
+  github: https://github.com/valeriaflorezs/heart-disease-mlops
+  keywords:
+    - mlops
+    - machine-learning
+    - kubernetes
+    - fastapi
+    - heart-disease
+  authors:
+    - nameParsed:
+        literal: Valeria Flórez
+        given: Valeria
+        family: Flórez
+      name: Valeria Flórez
+      id: >-
+        contributors-Users\valef\Downloads\heart-disease-mlops\myst-generated-uid-0
+  id: e6d07469-9663-43ad-ae1b-a892792945c5
+  toc:
+    - file: README.md
+    - children:
+        - file: notebooks/1_model_leakage_demo.ipynb
+        - file: notebooks/2_model_pipeline_cv.ipynb
+      title: Notebooks
+site:
+  template: book-theme
