@@ -6,7 +6,10 @@
       "version": "3.10"
     },
     "ghcr.io/devcontainers/features/docker-in-docker:2": {},
-    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {}
+    "ghcr.io/devcontainers/features/kubectl-helm-minikube:1": {},
+    "ghcr.io/devcontainers/features/sshd:1": {
+      "version": "latest"
+    }
   },
   "postCreateCommand": "pip install -r docker/requirements.txt -r requirements-dev.txt",
   "forwardPorts": [8000, 30080],
